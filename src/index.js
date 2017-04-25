@@ -11,8 +11,11 @@ import './inlined.css';
  */
 
 const mockData = {
-  title: 'Example email',
-  name: 'Alberto',
+  city: 'Madrid',
+  weather: {
+    abbr: 'lc',
+    name: 'Light Cloud',
+  },
 };
 
 ReactDOM.render(

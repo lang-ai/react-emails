@@ -62,7 +62,7 @@ function Row({ children, style = {} }) {
     <tr style={style}>
       {React.Children.map(children, (el) => {
         if (el.type === Cell) return el;
-        return <td>el</td>;
+        return <td>{el}</td>;
       })}
     </tr>
   );

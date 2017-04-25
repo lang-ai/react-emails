@@ -4,6 +4,7 @@ import Grid from './layout/Grid';
 import Header from './elements/Header';
 import Title from './elements/Title';
 import Body from './elements/Body';
+import Weather from './elements/Weather';
 import Footer from './elements/Footer';
 
 const style = {
@@ -26,12 +27,11 @@ function Email({ data }) {
       <Grid style={style.main}>
         <Header />
         <Body>
-          <Title>{data.title}</Title>
-
-          <p>Hey {data.name}!</p>
-          <p>
-            This is just a demo project so don't worry too much about the content!
-          </p>
+          <Title>Current weather in {data.city}</Title>
+          <Weather
+            name={data.weather.name}
+            abbr={data.weather.abbr}
+          />
         </Body>
         <Footer />
       </Grid>

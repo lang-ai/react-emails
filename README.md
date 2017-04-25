@@ -1,7 +1,6 @@
 # Emails tempaltes with react
 
-This is an example project. Read the article [here][article] to understand what's
-going on.
+This is an example project. Read the article [here][article] to learn more.
 
 
 ### Development

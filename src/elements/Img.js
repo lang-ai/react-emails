@@ -1,10 +1,4 @@
-import React, { PropTypes } from 'react';
-
-const propTypes = {
-  alt: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired,
-};
-
+import React from 'react';
 
 const imgStyle = {
 
@@ -17,7 +11,6 @@ const imgStyle = {
 
 };
 
-
 function Img({ src, alt, className, style = {} }) {
   return (
     <img
@@ -28,7 +21,5 @@ function Img({ src, alt, className, style = {} }) {
     />
   );
 }
-
-Img.propTypes = propTypes;
 
 export default Img;
