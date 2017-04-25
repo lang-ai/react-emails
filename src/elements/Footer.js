@@ -31,7 +31,7 @@ function Footer() {
         </p>
         <p style={style.p}>
           The template and source code is freely available&nbsp;
-          <a style={style.a} href="https://google.com">here</a>
+          <a style={style.a} href="https://github.com/sentisis/react-emails">here</a>
         </p>
       </Grid.Cell>
     </Grid>
