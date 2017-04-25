@@ -7,7 +7,7 @@
 ### Example
 
 To provide an example as starting point, this project generates a weather
-forecast by using a public API.
+forecast by using the [MetaWeather API][metaweather].
 
 To generate the example email:
 
@@ -47,8 +47,17 @@ createEmail(data)
   });
 ```
 
+- - - - - - - - - -
+
+**Built with ❤️  by Séntisis**
+
+[![Séntisis](https://s3-eu-west-1.amazonaws.com/sentisis-images/github_public/react-emails/sentisis-logo.png)][sentisis]
+
 
  [article]: https://building.sentisis.com/
+ [sentisis]: https://building.sentisis.com/
  [react-create-app]: https://github.com/facebookincubator/create-react-app
  [react-create-app-guide]: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
+ [metaweather]: https://www.metaweather.com/api/
+
 
