@@ -20,21 +20,19 @@ function getWeatherInMadrid() {
   return fetch('https://www.metaweather.com/api/location/766273/')
     .then(res => res.json())
     .then((res) => {
-      const weather = res.consolidated_weather.map(w => ({
+      return res.consolidated_weather.map(w => ({
         date: w.applicable_date,
         name: w.weather_state_name,
         abbr: w.weather_state_abbr,
         tMax: w.max_temp,
         tMin: w.min_temp,
-      });
-
-      return { weather };
-    })
+      }));
+    });
 }
 
 function saveEmail(email) {
   return new Promise((resolve, reject) => {
-    fs.write('weather.html', email, 'utf8', (err) => {
+    fs.writeFile('weather.html', email, (err) => {
       if (err) return reject(err);
       return resolve();
     });

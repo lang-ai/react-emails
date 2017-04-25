@@ -4,7 +4,7 @@ const Path = require('path');
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
 
-const Email = require('./lib/Email').default;
+const Email = require('../lib/Email').default;
 
 const STYLE_TAG = '%STYLE%';
 const CONTENT_TAG = '%CONTENT%';
@@ -33,19 +33,19 @@ function getFile(relativePath) {
  */
 function createEmail(data) {
   return Promise.all([
-    getFile('../css/inlined.css'),
+    getFile('../src/inlined.css'),
     getFile('./email.html'),
   ])
     .then(([style, template]) => {
-      const email = React.createElement(Email, { data });
-      const content = ReactDOMServer.renderToStaticMarkup(email);
+      const emailElement = React.createElement(Email, { data });
+      const content = ReactDOMServer.renderToStaticMarkup(emailElement);
 
       // Replace the template tags with the content
-      let email = template;
-      email = email.replace(CONTENT_TAG, content);
-      email = email.replace(STYLE_TAG, style);
+      let emailHTML = template;
+      emailHTML = emailHTML.replace(CONTENT_TAG, content);
+      emailHTML = emailHTML.replace(STYLE_TAG, style);
 
-      return email;
+      return emailHTML;
     });
 }
 
