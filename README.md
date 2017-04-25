@@ -49,9 +49,9 @@ createEmail(data)
 
 - - - - - - - - - -
 
-**Built with ❤️  by Séntisis**
-
 [![Séntisis](https://s3-eu-west-1.amazonaws.com/sentisis-images/github_public/react-emails/sentisis-logo.png)][sentisis]
+
+**Built with ❤️  by Séntisis**
 
 
  [article]: https://building.sentisis.com/
