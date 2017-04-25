@@ -1,6 +1,25 @@
-# Emails tempaltes with react
+# Generating Emails with React
 
-This is an example project. Read the article [here][article] to learn more.
+> This is an example project you can use to generate emails with React.
+> You can start by reading the article [here][article].
+
+
+### Example
+
+To provide an example as starting point, this project generates a weather
+forecast by using a public API.
+
+To generate the example email:
+
+```
+$ npm run build
+$ node example/weather.js
+```
+
+The result html will be saved in the working directory. Here is what it looks
+like:
+
+![Email preview](https://s3-eu-west-1.amazonaws.com/sentisis-images/github_public/react-emails/email-preview.png)
 
 
 ### Development
@@ -29,7 +48,7 @@ createEmail(data)
 ```
 
 
- [article]: https://building.sentisis.com
+ [article]: https://building.sentisis.com/
  [react-create-app]: https://github.com/facebookincubator/create-react-app
  [react-create-app-guide]: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
 
