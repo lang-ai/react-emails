@@ -12,6 +12,7 @@ const style = {
   container: {
     backgroundColor: '#efefef',
     padding: '20px 0',
+    fontFamily: 'sans-serif',
   },
 
   main: {
