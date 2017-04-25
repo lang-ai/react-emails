@@ -3,7 +3,7 @@ import React from 'react';
 import Grid from '../layout/Grid';
 import Img from './Img';
 
-import logoSrc from '../logo.png';
+const logoSrc = 'http://i.imgur.com/RAJDs6w.png';
 
 const style = {
 
