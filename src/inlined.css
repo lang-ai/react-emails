@@ -1,0 +1,15 @@
+/**
+ * This CSS file will be inlined by the `createEmail` function when run on the
+ * server while explicitally required when running in development mode by
+ * Webpack.
+ *
+ * You should include here the styles that can't be inlined, such as media
+ * queries
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
