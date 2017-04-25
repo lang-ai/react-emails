@@ -20,12 +20,15 @@ function getWeatherInMadrid() {
   return fetch('https://www.metaweather.com/api/location/766273/')
     .then(res => res.json())
     .then((res) => {
-      const currentWeather = res.consolidated_weather[0];
+      const weather = res.consolidated_weather.map(w => ({
+        date: w.applicable_date,
+        name: w.weather_state_name,
+        abbr: w.weather_state_abbr,
+        tMax: w.max_temp,
+        tMin: w.min_temp,
+      });
 
-      return {
-        abbr: currentWeather.weather_state_abbr,
-        name: currentWeather.weather_state_name,
-      };
+      return { weather };
     })
 }
 

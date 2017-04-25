@@ -27,11 +27,8 @@ function Email({ data }) {
       <Grid style={style.main}>
         <Header />
         <Body>
-          <Title>Current weather in {data.city}</Title>
-          <Weather
-            name={data.weather.name}
-            abbr={data.weather.abbr}
-          />
+          <Title>Weather report for {data.city}</Title>
+          <Weather report={data.weather} />
         </Body>
         <Footer />
       </Grid>

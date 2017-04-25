@@ -10,6 +10,7 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "date-fns": "^1.28.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
