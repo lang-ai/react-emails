@@ -43,7 +43,7 @@ const data = {
 
 createEmail(data)
   .then((html) => {
-    // Send the HTML with your email service of choiche
+    // Send the HTML with your email service of choice
   });
 ```
 
