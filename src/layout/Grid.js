@@ -17,8 +17,7 @@ import React from 'react';
  *      <p>Foo</p>
  *    </Grid>
  *
- * Ad the missing row and cell declaration are autmatically added.
- *
+ * Add the missing row and cell declaration are automatically added.
  *
  * Examples
  * --------
@@ -38,7 +37,7 @@ import React from 'react';
  *      <Grid.Cell>
 *          <p>I'm in the first cell</p>
 *          <p>I'm in the second cell</p>
- *      </Grid.RRowow>
+ *      </Grid.Cell>
  *    </Grid>
  *
  */
@@ -99,4 +98,3 @@ Grid.Row = Row;
 Grid.Cell = Cell;
 
 export default Grid;
-
