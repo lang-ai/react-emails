@@ -12,6 +12,7 @@ forecast by using the [MetaWeather API][metaweather].
 To generate the example email:
 
 ```
+$ npm install
 $ npm run build
 $ node example/weather.js
 ```
