@@ -50,13 +50,12 @@ createEmail(data)
 
 - - - - - - - - - -
 
-[![Séntisis](https://s3-eu-west-1.amazonaws.com/sentisis-images/github_public/react-emails/sentisis-logo.png)][sentisis]
+[![LangAI](https://s3-eu-west-1.amazonaws.com/langai-public/github/logo-small.png)][langai]
 
-**Built with ❤️  by Séntisis**
-
+**Built with ❤️ by Lang.ai**
 
  [article]: https://building.sentisis.com/
- [sentisis]: https://building.sentisis.com/
+ [langai]: https://building.lang.ai/
  [react-create-app]: https://github.com/facebookincubator/create-react-app
  [react-create-app-guide]: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
  [metaweather]: https://www.metaweather.com/api/
