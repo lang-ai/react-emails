@@ -1,7 +1,7 @@
 # Generating Emails with React
+This is an example project you can use to generate emails with React. You can start by reading the article [here](https://building.lang.ai/how-to-build-emails-with-react-fcf941b125d1).
 
-> This is an example project you can use to generate emails with React.
-> You can start by reading the article [here](https://building.lang.ai/how-to-build-emails-with-react-fcf941b125d1).
+>  If you want to generate PDFs using react, check the [react-pdfs](https://github.com/lang-ai/react-pdfs) repo.
 
 
 ### Example
