@@ -5,14 +5,13 @@ const fetch = require('node-fetch');
 /**
  * You can also install the package as a module and require it.
  *
- * For example in our production server, we have a repository will all the
+ * For example in our production server, we have a repository with all the
  * emails layouts created with this same tecnique.
- * The package name is `@sentisis/emails` and then we required it as follows:
+ * The package name is `@sentisis/emails` and then we simply require it:
  *
  *     const createEmail = require('@sentisis/emails');
  *
- * In this case, for the example to work, we first need to run `npm run build`
- * to generated the transpiled react files.
+ * The package contains the files already transpiled with babel.
  */
 const createEmail = require('../server/createEmail');
 
