@@ -6,24 +6,26 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "7.0.0",
-    "babel-preset-react-app": "^2.2.0",
-    "eslint": "3.8.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-react-app": "^3.1.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-react-app": "0.3.0",
     "eslint-plugin-flowtype": "2.21.0",
-    "eslint-plugin-import": "2.0.1",
-    "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.4.1",
-    "node-fetch": "^1.6.3",
-    "react-scripts": "0.9.5"
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "node-fetch": "^2.1.2",
+    "react-scripts": "1.1.4"
   },
   "dependencies": {
     "date-fns": "^1.28.3",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
   },
   "scripts": {
-    "install": "NODE_ENV=production babel src --out-dir lib --presets=react-app",
-    "build": "NODE_ENV=production babel src --out-dir lib --presets=react-app",
+    "install": "NODE_ENV=production babel src --out-dir lib",
+    "build": "NODE_ENV=production babel src --out-dir lib",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
